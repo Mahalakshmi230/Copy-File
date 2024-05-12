@@ -18,12 +18,14 @@ When done print "File copied sucessfully"
 ### Step 6: 
 End of the program.
 ## PROGRAM:
+```
 #Developed by: Mahalakshmi R
 #Reg No: 212223230116
 with open("text1.txt","r") as fp:
     msg1=fp.read()
 with open("copytxt","w") as fp1:
     fp1.write(msg1)
+```
 ### OUTPUT:
 ![Screenshot 2024-05-12 135320](https://github.com/Mahalakshmi230/Copy-File/assets/149365324/74e4cf90-229e-4429-b44b-28115ad44a9a)
 
